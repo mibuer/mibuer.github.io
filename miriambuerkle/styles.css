@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh; 
+    background: url(assets/mountain.jpg) fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+body {
+    margin: 0px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.aboutme {
+    display: flex;
+
+}
+.aboutme img {
+    width: 40%;
+    border-radius: 50%;
+    padding: 10%;
+}
+
+.aboutme .image {
+    flex: 2;
+    padding-left: 5%;
+}
+
+.aboutme .description {
+    flex: 3;
+    padding-top: 4%;
+}
+
+.hobbys ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hobbys ul li {
+    list-style: none;
+    text-align: center;
+}
+
+/*icons*/
+.hobbys ul li i{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 6px;
+    height: 40px;
+}
+
+.hobbys h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+    background: linear-gradient( 
+        to right, 
+        red 0%,
+        green 50%,
+        blue 100%
+    ) ;
+    height: 1px;
+}
+.project {
+    display: flex;
+
+}
+
+
+.project img {
+    max-width: 100%;
+    
+}
+
+.project-image {
+    flex: 1;
+}
+
+
+.project-description {
+    flex: 1;
+}
+
+main {
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+.projects > h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.project-description p {
+    text-align: justify;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+
+.view {
+    position: relative;
+    width: 600px;
+    height: 380px;
+    margin-right: 10%;
+    margin-right: 10%;
+}
+
+.mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(249, 105, 14, 0.5);
+    transition: all 0.3s ease-in 0.3;
+    opacity: 0;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.mask:hover {
+    opacity: 1;
+
+}
+
+mask.mask-two {
+    background-color: rgba(35, 138, 202, 0.5);
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+footer {
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+footer a {
+    text-decoration: none;
+
+}
